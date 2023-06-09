@@ -1,0 +1,139 @@
+@charset "ulf-8";
+
+/* 初期スタイル調整 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3","Hiragino kaku Gothic ProN", Arial, "メイリオ", meiriy, sans-serif;
+    color:  #806334;
+    background-color: #fff;
+}
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 1.2;   
+}
+
+a {
+    color: #806342;
+    text-emphasis: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+ul {
+    margin: 1em 0;
+    padding: 0;
+    list-style: none;
+}
+figure {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+address {
+    font-style: normal;
+}
+
+/* ヘッダー*/
+.header {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+/* ロゴ */
+.logo {
+    margin: 0;
+    text-align: center;
+}
+/*　メイン　*/
+.main{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* トップ（メインイメージ) */
+.top {
+    margin-bottom: 20px;
+    text-align: center;
+}
+/*　ナビ　*/
+.nav {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.nav-list li {
+    display: inline-block;
+    margin: 0;
+    border-left: 1px solid #806342;
+}
+.nav-list li:first-child{
+    border-left: none;
+}
+.nav-list a {
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+/* セクション　*/
+.section {
+    margin: 0 auto 80px;
+}
+/* 見出し */
+.heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+/* アバウト */
+.about {
+    text-align: center;
+}
+/* メニュー　*/
+.menu {
+    text-align: center;
+}
+.menu-list {
+    display: inline-block;
+    margin-left: 30px;
+    list-style: disc;
+    text-align: left;
+}
+.menu-list li {
+    margin-bottom: 10px;
+}
+/* フォト*/
+.photos {
+    width: 750px;
+}
+.photos-list li {
+    margin-bottom: 30;
+}
+.photos-list li {
+    margin-bottom: 30px;
+}
+.photos figcaption {
+    font-size: 12px;
+}
+/*　アクセス　*/
+.access {
+    width: 600px;
+}
+.access-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+
